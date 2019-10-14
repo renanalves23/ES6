@@ -1,0 +1,30 @@
+       #Privacy Structure
+// ES5
+(function() {
+    var c = 3;
+})();
+
+//console.log(c); //não aparece no console
+
+
+
+
+                                                     // ES6
+                                                  {
+                                                      const a = 1;
+                                                      let b = 2;
+                                                      var c = 3;
+                                                  }
+
+                                                  //console.log(a + b); //não aparecem no console
+                                                  console.log(c);     //c consegue ser mostrada por ser function scoped                         
+
+
+
+
+
+
+
+                                    
+
+
